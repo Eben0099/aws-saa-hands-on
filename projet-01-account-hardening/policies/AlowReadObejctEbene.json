@@ -1,0 +1,21 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowGetS3Object",
+            "Effect": "Allow",
+            "Action": [
+                "S3:GetObject"
+            ],
+            "Resource": "arn:aws:s3:::ebene-p1-lab-01/*"
+        },
+        {
+            "Sid": "AllowListS3Object",
+            "Effect": "Allow",
+            "Action": [
+                "S3:ListBucket"
+            ],
+            "Resource": "arn:aws:s3:::ebene-p1-lab-01"
+        }
+    ]
+}
