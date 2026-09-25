@@ -21,7 +21,7 @@ No access key is configured on the instance.
 
 ## What was built
 
-- Root account used for the initial setup (IAM access to billing)
+- Root account used for the initial setup (MFA enabled, IAM access to billing)
 - IAM admin user with MFA
 - Group and user `readonly-auditor` with read-only access
 - Bucket `ebene-p1-lab-01` with one test object, and a second bucket `ebene-p1-lab-02` to test denied access
